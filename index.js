@@ -10,7 +10,7 @@ exports.register = function register() {
 };
 
 
-exports.init_rethink_db = function init_rethink_db() {
+exports.init_rethink_db = function init_rethink_db(next) {
 	if (!server.notes.r) {
 		server.notes.r = rethinkdbdash({
 			'db': 'mail',
