@@ -1,0 +1,14 @@
+{
+  "name": "haraka-rethinkdb-queue",
+  "version": "1.0.0",
+  "description": "Haraka save messages to rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yury Michurin <yury@nix.co.il>",
+  "license": "ISC",
+  "dependencies": {
+    "rethinkdbdash": "^2.2.15"
+  }
+}
