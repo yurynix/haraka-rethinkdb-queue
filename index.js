@@ -19,6 +19,8 @@ exports.init_rethink_db = function init_rethink_db() {
 		    	]
 		});
 	}
+
+	next();
 };
 
 exports._createTable = function _createTable(db, table) {
